@@ -720,6 +720,20 @@ input, select, textarea {
 
 		}
 
+
+/* Award Section */
+	.award_section {
+		display: flex;
+		align-items: center;
+		padding: 1%;
+	}
+
+		.award_section img {
+			width: 200px;
+			border-radius: 15px;
+			margin-right: 20px;
+		}
+
 /* List */
 
 	ol {
