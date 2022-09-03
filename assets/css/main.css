@@ -769,7 +769,8 @@ input, select, textarea {
 			columns: 2;
 			-webkit-columns: 2;
 			-moz-columns: 2;
-			padding-left: 1.50em;
+			padding-left: 1.5em;
+			column-gap: 2rem;
 		}
 
 		ul.alt {
