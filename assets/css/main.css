@@ -734,6 +734,15 @@ input, select, textarea {
 			margin-right: 20px;
 		}
 
+		@media screen and (max-width: 736px) {
+
+			.award_section img {
+				width: 150px;
+				margin-right: 10px;
+			}
+
+		}
+
 /* List */
 
 	ol {
