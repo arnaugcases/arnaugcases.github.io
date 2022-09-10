@@ -1,0 +1,65 @@
+.skill {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-right: 20px;
+    position: relative;
+}
+
+ .outer_circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.8),
+                -1px -1px 5px -2px rgba(255,255,255,0.8);
+}
+
+.inner_circle {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 3px -2px rgba(0,0,0,0.8),
+                inset -1px -1px 3px -2px rgba(255,255,255,0.8),
+                -0.5px -0.5px 0px rgba(0,0,0,0.8),
+                0.5px 0.5px 0px rgba(255,255,255,0.1);
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 12px;
+    /* stroke-dasharray: 150; */
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Award Section */
+.award_section {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+    .award_section img {
+        width: 200px;
+        border-radius: 15px;
+        margin-right: 20px;
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .award_section img {
+            width: 150px;
+            margin-right: 10px;
+        }
+
+    }

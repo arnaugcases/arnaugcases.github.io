@@ -720,29 +720,6 @@ input, select, textarea {
 
 		}
 
-
-/* Award Section */
-	.award_section {
-		display: flex;
-		align-items: center;
-		padding: 1%;
-	}
-
-		.award_section img {
-			width: 200px;
-			border-radius: 15px;
-			margin-right: 20px;
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.award_section img {
-				width: 150px;
-				margin-right: 10px;
-			}
-
-		}
-
 /* List */
 
 	ol {
