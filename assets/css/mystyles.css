@@ -63,3 +63,9 @@ svg {
         }
 
     }
+
+div.center {
+    text-align: center;
+}
+
+#more {display: none;}
