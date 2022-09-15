@@ -64,6 +64,7 @@ svg {
 
     }
 
+/* Project section */
 div.center {
     text-align: center;
 }
@@ -87,3 +88,13 @@ div.center {
 #more1 {display: none;}
 
 #more2 {display: none;}
+
+/* About section */
+.photo_id {
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
